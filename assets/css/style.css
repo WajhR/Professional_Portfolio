@@ -1,0 +1,68 @@
+header {
+  background-color: #13293d;
+  height : 20%;
+  Padding: 20px;
+  text-align: left;
+  
+}
+
+
+#main-header {
+  font-size: 1.0rem;
+  font-style: italics;
+}
+  
+  main {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card {
+     
+    flex: 20 20 200px;
+    padding: 1px;
+   
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1.5rem;
+  }
+  
+  .card header {
+    padding: 30px;
+    background:rgb(184, 96, 96);
+    color: #0e0c0c;
+    
+  }
+
+  section aside {
+    border: 2px solid black;
+
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color:#13293d;
+    color: #fff;
+    
+  }
+
+
+  .card.About Me {
+    
+    flex: 2 1 200px;
+  }
+  
