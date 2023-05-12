@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content= "width-device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
@@ -10,70 +9,51 @@
 </head>
 
 <body>
-    <header id ="main-header">
-        <h1>Wajeeha Riyasat</h1>
-        <h2>Current student at Rutger coding bootcamp</h2>
+  <h1 id="photo" class="text-center">My Professional Website</h1>
+    <header>
+     
+      <nav class="text-right">
+       
+        <ul>
+          <li> <a href="https://github.com/">About Me</a></li>
+          <li> <a href="https://github.com/">Github</a></li>
+          <li> <a href="#">Portfolio</a></li>
+          <li> <a href="#contact">Contact</a></li>
+         
+        </ul>
         
-
-        <img src="./assets/images/Profile.png" style="width:250px;height:300px;">
+      </nav>
     </header>
     <main>
-        <section class = "card">
-            <header> About Me</header>
-        </section>
-        <section class="card">
-            <header>Project</header>
-        </section>
-        <section class="card">
-            <header>Hobbies</header>
-        </section>
-        <section class="card">
-            <header> Contact Me</header>
-        </section>
-        <article>
-            <h2>Biography</h2>
-            <div>
-              <p>
-                Hi, My name is Wajeeha and I live in New Jersey.  I am currently enrolled in Fullstack coding bootcamp.  
-                I have no coding experience so this is very challenging for me, 
-                but I am enjoying it.  I am learing something new everyday.  
-                This is what I have learned so far in the bootcamp.
-              </p>
-              <p>This is what I have learned so far:</p>
-              <ul>
-                <li>Systems operations</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript: we are currently learning. </li>
-              </ul>
-            </div>
-          </article>
-          <article>
-            <h2>Hobbies!</h2>
-            <div>
-              <p class="one">
-                 I like to travel with my Family. I love going to the beach.
-              </p>
-              <p class="two">
-                I like to cook and my son also loves helping me in the kitchen.
-              </p>
-              <p class="three">
-                I want to learn dancing, so this will me next challenge after coding.
-              </p>
-              <p class="four">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                excepturi temporibus rem adipisci optio rerum facere blanditiis,
-                ipsam iure esse accusantium eligendi aut est deserunt. In,
-                praesentium at. Inventore, consequatur!
-              </p>
-            </div>
-          </article>
-        
+     
+      <figure>
+        <img src="./assets/images/Profile.png" style="width:250px;height:300px;">
+        <img src="./assets/images/image-1.png">
+        <figcaption class="text-center">Hi, I am currently studying to to be a web developer at Rutgers coding bootcamp!</figcaption>
+      </figure>
+      <section id="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+          <ul>
+            <li>
+              <label class="text-right" for="name">Name:</label>
+              <input type="text" id="name" name="user-name">
+            </li>
+            <li>
+              <label class="text-right" for="email">Email:</label>
+              <input type="text" id="email" name="user-email">
+            </li>
+          </ul>
+          <div class="text-center">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     
-    <footer> 
-        <span> Thanks for visiting!</span> 
+    <footer class="text-left">
+      © 2023 Thanks for visiting!
     </footer>
 
     
